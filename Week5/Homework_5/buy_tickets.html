@@ -393,8 +393,6 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
 
-    <!-- JQuery Hide and Show Buttons -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <script>
         // Example starter JavaScript for disabling form submissions if there are invalid fields
         (function () {
@@ -422,18 +420,48 @@
         });
         function copyInfo(form) {
             var checked = form.inlineCheckbox1.checked;
-            form.validationFirstNameB.value = checked ? form.validationFirstName.value : "";
-            // if(checked === true){
-            //     form.validationFirstNameB.value = form.validationFirstName.value;
-            // } else {
-            //     form.validationFirstNameB.value = "";
-            // }
-            form.validationLastNameB.value = checked ? form.validationLastName.value : "";
-            form.validationAddressB.value = checked ? form.validationAddress.value : "";
-            form.validationAddress2B.value = checked ? form.validationAddress2.value : "";
-            form.validationCityB.value = checked ? form.validationCity.value : "";
-            form.validationStateB.value = checked ? form.validationState.value : "";
-            form.validationZipB.value = checked ? form.validationZip.value : "";
+            
+            if(checked === true){
+                form.validationFirstNameB.value = form.validationFirstName.value;
+            } else {
+                form.validationFirstNameB.value = "";
+            }
+            
+            if(checked === true){
+                form.validationLastNameB.value = form.validationLastName.value;
+            } else {
+                form.validationLastNameB.value = "";
+            }
+            
+            if(checked === true){
+                form.validationAddressB.value = form.validationAddress.value;
+            } else {
+                form.validationAddressB.value = "";
+            }
+            
+            if(checked === true){
+                form.validationAddress2B.value = form.validationAddress2.value;
+            } else {
+                form.validationAddress2B.value = "";
+            }
+            
+            if(checked === true){
+                form.validationCityB.value = form.validationCity.value;
+            } else {
+                form.validationCityB.value = "";
+            }
+            
+            if(checked === true){
+                form.validationStateB.value = form.validationState.value;
+            } else {
+                form.validationStateB.value = "";
+            }
+            
+            if(checked === true){
+                form.validationZipB.value = form.validationZip.value;
+            } else {
+                form.validationZipB.value = "";
+            }
         }
     </script>
 </body>
