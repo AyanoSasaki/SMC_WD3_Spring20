@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
@@ -18,11 +20,12 @@
 
     <!-- Styles -->
     <style>
-        h1, h2{
+        h1,
+        h2 {
             font-family: 'Ubuntu', sans-serif;
         }
 
-        h3{
+        h3 {
             font-family: 'Ubuntu', sans-serif;
             font-size: 1.3rem;
             color: white;
@@ -31,41 +34,45 @@
 
 
     <title>Interactive forms</title>
-  </head>
-  <body>
-      <header>
+</head>
+
+<body>
+    <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">RiSE</a>
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Event Details</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-            <a href="#" class="nav-link">
-                <i class="fab fa-facebook-f my-example"></i>
-            </a>
-            <a href="#" class="nav-link">
-            <i class="fab fa-instagram my-example"></i>
-            </a>
-            <a href="#" class="nav-link">
-            <i class="fab fa-twitter my-example"></i>
-            </a>
+                <a class="navbar-brand" href="#">RiSE</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Event Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <a href="#" class="nav-link">
+                    <i class="fab fa-facebook-f my-example"></i>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="fab fa-instagram my-example"></i>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="fab fa-twitter my-example"></i>
+                </a>
             </div>
         </nav>
 
         <!-- Jumbotron -->
-        <div class="jumbotron text-white" style="background-image: url('assets/a_lantern.jpeg'); background-size:cover; background-position: center;" alt="A lantern">
+        <div class="jumbotron text-white"
+            style="background-image: url('assets/a_lantern.jpeg'); background-size:cover; background-position: center;"
+            alt="A lantern">
             <h1 class="display-4">Buy Tickets</h1>
         </div>
     </header>
@@ -75,7 +82,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <form class="needs-validation" novalidate>
+                    <form class="needs-validation" novalidate id="myForm">
                         <!-- Shipping Address -->
                         <div class="shipping">
                             <h2>Shipping Address</h2>
@@ -100,8 +107,8 @@
                             <div class="form-row">
                                 <div class="col-md-6 mb-3">
                                     <label for="validationAddress">Address</label>
-                                    <input type="text" class="form-control" id="validationAddress"
-                                        placeholder="Address" required>
+                                    <input type="text" class="form-control" id="validationAddress" placeholder="Address"
+                                        required>
                                     <div class="invalid-feedback">
                                         Please provide your street address
                                     </div>
@@ -194,8 +201,7 @@
                         <div class="billing">
                             <h2>Billing Address</h2>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"
-                                    onclick="copyInfo(this.form)">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                 <label class="form-check-label" for="inlineCheckbox1">Same As Shipping</label>
                             </div>
                             <div class="form-row">
@@ -370,25 +376,58 @@
                 </div>
             </div>
         </div>
-        <div class="container"> 
+        <div class="container">
     </main>
     <footer></footer>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 
     <!-- JQuery Hide and Show Buttons -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
     <!-- Copy and Clear Form Fields -->
     <script>
+        $("#inlineCheckbox1").click(function(){
+            copyInfo(document.getElementById('myForm'));
+        });
         function copyInfo(form) {
             var checked = form.inlineCheckbox1.checked;
             form.validationFirstNameB.value = checked ? form.validationFirstName.value : "";
+            // if(checked === true){
+            //     form.validationFirstNameB.value = form.validationFirstName.value;
+            // } else {
+            //     form.validationFirstNameB.value = "";
+            // }
             form.validationLastNameB.value = checked ? form.validationLastName.value : "";
             form.validationAddressB.value = checked ? form.validationAddress.value : "";
             form.validationAddress2B.value = checked ? form.validationAddress2.value : "";
@@ -397,5 +436,6 @@
             form.validationZipB.value = checked ? form.validationZip.value : "";
         }
     </script>
-  </body>
+</body>
+
 </html>
