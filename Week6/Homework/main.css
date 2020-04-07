@@ -1,0 +1,188 @@
+.my-example{
+    color: black;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    margin: 45px;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+/* .display-4{
+    font-size: 2rem;
+} */
+
+.jumbotron-fluid{
+    background-color: rgb(155, 153, 153);
+    margin-top: 30px;
+}
+
+.card-deck{
+    margin: 20px;
+}
+
+.card-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.sub-header{
+    margin: 30px;
+}
+
+.sub-header-title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.8rem;
+}
+
+.sub-header-p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 0.8rem;
+    margin: 25px;
+}
+
+.lead{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 30px;
+}
+
+.main-ctg{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+.req-btn{
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+/* Model */
+.form-dark .font-small {
+    font-size: 0.8rem; }
+  
+.form-dark [type="radio"] + label,
+.form-dark [type="checkbox"] + label {
+font-size: 0.8rem; }
+
+.form-dark [type="checkbox"] + label:before {
+top: 2px;
+width: 15px;
+height: 15px; }
+
+.form-dark .md-form label {
+color: #fff; }
+
+.form-dark input[type=email]:focus:not([readonly]) {
+border-bottom: 1px solid #00C851;
+-webkit-box-shadow: 0 1px 0 0 #00C851;
+box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=email]:focus:not([readonly]) + label {
+color: #fff; }
+
+.form-dark input[type=password]:focus:not([readonly]) {
+border-bottom: 1px solid #00C851;
+-webkit-box-shadow: 0 1px 0 0 #00C851;
+box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=password]:focus:not([readonly]) + label {
+color: #fff; }
+
+.form-dark input[type="checkbox"] + label:before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 17px;
+height: 17px;
+z-index: 0;
+border: 1.5px solid #fff;
+border-radius: 1px;
+margin-top: 2px;
+-webkit-transition: 0.2s;
+transition: 0.2s; }
+
+.form-dark input[type="checkbox"]:checked + label:before {
+top: -4px;
+left: -3px;
+width: 12px;
+height: 22px;
+border-style: solid;
+border-width: 2px;
+border-color: transparent #00c851 #00c851 transparent;
+-webkit-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);
+-webkit-backface-visibility: hidden;
+-webkit-transform-origin: 100% 100%;
+-ms-transform-origin: 100% 100%;
+transform-origin: 100% 100%; }
+
+.form-dark .modal-header {
+    border-bottom: none;
+}
+
+
+
+@media(min-width: 540px){
+    h2{
+        margin: 66px;
+    }
+
+    .card-deck{
+        margin: 53px;
+    }
+
+    .slide{
+        margin: 70px;
+    }
+
+    /* .display-4{
+        font-size: 3rem;
+    } */
+
+    .sub-header{
+        margin: 100px;
+    }
+
+    .sub-header-title{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 4rem;
+    }
+    
+    .sub-header-p{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-style: medium;
+        font-size: 1.2rem;
+        margin: 30px;
+    }
+
+    .req-btn{
+        margin: 70px;
+    }
+    
+    .sub-btn{
+        margin: 70px;
+    }
+}
