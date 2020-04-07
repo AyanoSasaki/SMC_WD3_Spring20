@@ -72,6 +72,10 @@ a{
     color: black;
 }
 
+.alert{
+    text-align: center;
+}
+
 /* Model */
 .form-dark .font-small {
     font-size: 0.8rem; }
