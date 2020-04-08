@@ -11,11 +11,11 @@
     <!-- Font Awesome CSS -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap" rel="stylesheet">
+
     <!-- Style -->
     <link rel="stylesheet" href="main.css">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 
     <title>Stratavision</title>
   </head>
@@ -55,8 +55,10 @@
         </nav>
 
         <!-- Alart -->
-        <div class="alert alert-secondary" role="alert">
+        <div class="alert alert-secondary alert-dismissible" role="alert">
             <a href="#" class="alert-link">Sign up</a> and save 20% on your first order!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
           </div>
         
         <!-- Carousel -->
@@ -132,7 +134,7 @@
         aria-hidden="true">
         <div class="modal-dialog form-dark" role="document">
         <!--Content-->
-        <div class="modal-content card card-image" style="background-image: url('file:///Users/Ayano/SMC/SMC_WD3_Spring20/Week6/Homework/assets/ocean.jpg');">
+        <div class="modal-content card card-image" style="background-image: url('assets/ocean.jpg');">
             <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
             <!--Header-->
             <div class="modal-header text-center pb-4">
@@ -172,9 +174,9 @@
         </div>
 
         <!-- Model button -->
-        <div class="text-center">
+        <!-- <div class="text-center">
             <a href="" class="btn btn-info btn-lg sub-btn" data-toggle="modal" data-target="#darkModalForm">Subscribe <i class="far fa-hand-point-up"></i></a>
-        </div>
+        </div> -->
 
        
         <!-- Footer -->
@@ -318,9 +320,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>

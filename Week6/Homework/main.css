@@ -41,19 +41,16 @@ h2{
 }
 
 .sub-header-p{
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-style: medium;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 25px;
 }
 
 .lead{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 30px;
 }
 
@@ -74,6 +71,10 @@ a{
 
 .alert{
     text-align: center;
+}
+
+.jumbotron{
+    border-radius: 0px;
 }
 
 /* Model */
@@ -174,7 +175,6 @@ transform-origin: 100% 100%; }
     }
     
     .sub-header-p{
-        text-align: center;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-style: medium;
