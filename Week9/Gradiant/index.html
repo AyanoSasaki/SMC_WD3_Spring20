@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 100%;
+            height: 400px;;
+        }
+
+        #gradient1{
+            background-color: teal;
+            background-image: linear-gradient(to left, teal 70%, darkorange);
+        }
+
+        #gradient2{
+            background-color: steelblue;
+            background-image: linear-gradient(70deg, steelblue 25%, indigo);
+        }
+
+        #gradient3{
+            background-image: repeating-linear-gradient(160deg, red ,orange 5%,yellow 10%,green 15%,blue 20%,indigo 25%,violet 30%); 
+        }
+
+        #gradient4{
+            background-color: lightcoral;
+            background-image: radial-gradient(lightcoral, cornsilk)
+        }
+
+        #gradient5{
+            background-color: lightcoral;
+            background-image: repeating-radial-gradient(circle, cadetblue, cornflowerblue 10%)
+        }
+
+        #gradient6{
+            position: relative;
+            background-image: linear-gradient();
+        }
+
+        div.gradient{
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to right, cornflowerblue, transparent);
+            z-index: 2;
+            position: absolute;
+        }
+
+        #gradient6 p{
+            position: absolute;
+            top: 30px;
+            width: 40%;
+            z-index: 3;
+        }
+
+        img{
+            width: 100%;
+            z-index: 1;
+        }
+    </style>
+
+</head>
+<body>
+    <section id="gradient1"></section>
+    <section id="gradient2"></section>
+    <section id="gradient3"></section>
+    <section id="gradient4"></section>
+    <section id="gradient5"></section>
+    <section id="gradient6">
+        <div class="gradient"></div>
+        <img src="clouds-blue-sky-background.jpg" alt="blue sky">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, debitis esse officia ipsa eos labore, unde sed aperiam ullam quis fuga nisi ad iure quod recusandae minus molestiae. Quam, sapiente?</p>
+    </section>
+
+</body>
+</html>
