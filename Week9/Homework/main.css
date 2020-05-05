@@ -1,0 +1,141 @@
+.bg-custom-1 {
+    background-color: #85144b;
+}
+
+.bg-custom-2 {
+background-image: linear-gradient(90deg, #355c7d 0%, #6C5B7B 50%, #C06C84 100%);
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+/* -- Underline -- */
+/* ul{
+    position: absolute;
+    width: 400px; height: 50px;
+    top: 50%; left: 50%;
+    margin-top: -25px; margin-left: -200px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    
+} */
+
+li {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link {
+    position: relative;
+}
+
+.link:after {
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #fff;
+    transition: width .1.5s ease;
+    -webkit-transition: width .2s ease;
+}
+
+.link:hover:after {
+    width: 100%;
+    left: 0;
+    background: #fff;
+}
+
+/* Image zoom on hover + Overlay colour */
+.parent {
+    width: 45%;
+    margin: 20px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+/* Several different images */
+.bg-one {background-image: url(assets/Venice1.jpg);}
+.bg-two {background-image: url(assets/Hollywood1.jpg);}
+.bg-three {background-image: url(assets/Downtown1.jpg);}
+.bg-four {background-image: url(assets/BeveryHills1.jpg);}
+.bg-five {background-image: url(assets/SantaMonica1.jpg);}
+.bg-six {background-image: url(assets/Malibu1.jpg);}
+
+
+h2 {
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover h2, .parent:focus h2 {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
