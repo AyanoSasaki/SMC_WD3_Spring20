@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- MAIN CSS -->
+    <link href="main.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <title>Customizing Bootstrap</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+
+        h1{
+            color: black;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+        }
+
+        h2{
+            font-family: 'Bangers', cursive;
+            font-size: 100px;
+            color: white;
+        }
+
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Millennium Dance Complex</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Class</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        <a href="#" class="nav-link">
+            <i class="fab fa-facebook-f my-example"></i>
+        </a>
+        <a href="#" class="nav-link">
+          <i class="fab fa-instagram my-example"></i>
+        </a>
+        <a href="#" class="nav-link">
+          <i class="fab fa-twitter my-example"></i>
+        </a>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-white" style="background-image: url('assets/top.jpg'); background-size:cover; background-position: center;" alt="lots of lantern">
+        <h1 class="display-4">Millennium Dance Complex Los Angeles</h1>
+    </div>
+
+    <main class="container">
+        <div class="row">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/r64740TJnEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6 align-self-center">
+                <h2>Today's Music of The Class</h2>
+            </div>
+            <div class="col-md-6">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="assets/groovyhiphop_500.jpg">
+                    <source media="(min-width: 768px)" srcset="assets/groovyhiphop_370.jpg">
+                    <img src="assets/groovyhiphop_500.jpg" alt="Dancing man" class="img-fluid mx-auto">
+                </picture>
+                <audio controls class="w-100">
+                    <source src="media/dance_music.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.268253717605!2d-118.38521448451516!3d34.13947852057466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c295f38aadae25%3A0xecc43f41fe66592!2sMillennium%20Dance%20Complex!5e0!3m2!1sen!2sus!4v1590279570469!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+  </body>
+</html>
