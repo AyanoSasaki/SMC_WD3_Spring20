@@ -13,6 +13,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
     <!-- Style -->
     <link rel="stylesheet" href="main.css">
@@ -21,52 +22,6 @@
   </head>
   <body>
     <header>
-        <!-- Navbar -->
-        <!-- <div class="container-fluid nav-container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="index.html">
-                <img src="assets/logo.png" alt="Logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav text-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                  <li class="nav-item dropdown nav-split-brand">
-                    <a class="nav-link dropdown-toggle" href="shop.html">
-                      Shop
-                    </a>
-                    <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="kibble.html"><img src="assets/nav-dog-kibble.png" alt="Kibble" class="pb-3 w-75"><br>Kibble</a>
-                        <a class="dropdown-item" href="pages/categories/original-tea.html"><img src="assets/nav-dog-Frozen-NavImage.png" alt="Frozen food" class="pb-3 w-75"><br>Frozen</a>
-                        <a class="dropdown-item" href="wetfood.html"><img src="assets/nav-dog-Wet-NavigationImage.png" alt="Wet Food" class="pb-3 w-75"><br>Wet Food</a>
-                        <a class="dropdown-item" href="freezedriedraw.html"><img src="assets/nav-dog-freezedriedraw.png" alt="Freeze-Dried Raw" class="pb-3 w-75"><br>Freeze-Dried Raw</a>
-                        <a class="dropdown-item" href="treats.html"><img src="assets/nav-dog-treats.png" alt="Treats" class="pb-3 w-75"><br>Treats</a>
-                        <a class="dropdown-item" href="supplements.html"><img src="assets/nav-dog-supplements.png" alt="Supplemnts" class="pb-3 w-75"><br>Supplemnts</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="location.html">Location</a>
-                  </li>
-                </ul>
-
-                 <a href="#" class="nav-link">
-                    <i class="fas fa-user my-example"></i>
-                </a>
-                <a href="#" class="nav-link">
-                    <i class="fas fa-shopping-cart my-example"></i>
-                </a> 
-              </div>
-            </nav>
-        </div> -->
-
-
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="index.html">
@@ -91,10 +46,8 @@
                           <a class="dropdown-item" href="freezedriedraw.html">Freeze-Dried Raw</a>
                           <a class="dropdown-item" href="treats.html">Treats</a>
                           <a class="dropdown-item" href="supplements.html">Suppleents</a>
+                          <a class="dropdown-item" href="shop.html">Shop All</a>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.html">Blog</a>
@@ -159,32 +112,46 @@
     </header>
 
     <main>
-        <!-- <h2 class="header">Shop Collections</h2> -->
+        <!-- What's New! -->
+        <div class="container mb-5">
+            <div class="otgs-bg">
+                <h2 class="text-center">What's New!</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-4">
+                    <div class="parent" onclick="">
+                        <div class="child bg-one"></div>
+                    </div>
+                    <p class="item-title text-center">Stella's Essentials Chicken & Ancient Grains Recipe</p>
+                    <p class="item-price text-center">$16.99</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="parent" onclick="">
+                        <div class="child bg-two"></div>
+                    </div>
+                    <p class="item-title text-center">Stella's Essentials Lamb & Ancient Grains Recipe</p>
+                    <p class="item-price text-center">$16.99</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="parent" onclick="">
+                        <div class="child bg-three"></div>
+                    </div>
+                    <p class="item-title text-center">Stella's Essentials Duck & Ancient Grains Recipe</p>
+                    <p class="item-price text-center">$16.99</p>
+                </div>
+            </div>
+            <a class="btn text-center sm-btn py-3 mx-auto mt-5" href="shop.html" role="button">See More</a>
+        </div>
 
-        <!-- Card Deck -->
-        <!-- <div class="card-deck">
-            <div class="card">
-            <img src="assets/blown_glasses.jpg" class="card-img-top" alt="Blown glasses">
-            <div class="card-body">
-                <h5 class="card-title">Glasses</h5>
-                <a href="#" class="btn btn-dark">See more</a>
+        <!-- Why Stella? -->
+        <div class="container mb-5">
+            <div class="otgs-bg">
+                <h2 class="text-center">Why Stella?</h2>
             </div>
-            </div>
-            <div class="card">
-            <img src="assets/black_sun_glasses.jpg" class="card-img-top" alt="Black sun glasses">
-            <div class="card-body">
-                <h5 class="card-title">Sun Glasses</h5>
-                <a href="#" class="btn btn-dark">See more</a>
-            </div>
-            </div>
-            <div class="card">
-            <img src="assets/glasses_accessory.jpg" class="card-img-top" alt="Accessory">
-            <div class="card-body">
-                <h5 class="card-title">Accessories</h5>
-                <a href="#" class="btn btn-dark">See more</a>
-            </div>
-            </div>
-        </div> -->
+            <p class="otgs text-center">Only The Good Stuff!</p>
+            <p class="otgs-p text-center">At Stella & Chewy’s, we believe that selecting the best food is one of the most important decisions a pet parent makes. From our first delivery to the last batch crafted in our own USA kitchen, we are focused on making the highest quality pet food available.</br></br>We only use quality ingredients responsibly sourced from farmers and ranchers we know and trust. Our raw dinners are 90-95% meat, organs & bone and our animal proteins have no added hormones or antibiotics.</p>
+            <img src="assets/cow.jpg" class="cow">
+        </div>
     </main>
 
     <footer>

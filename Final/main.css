@@ -1,3 +1,5 @@
+
+
 .my-example{
     color: white;
 }
@@ -11,6 +13,14 @@
 .nav-link{
     color: white;
     margin: 20px;
+}
+
+h2{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 35px;
+    color: #cb2a1d;
+    margin-top: 58px;
+    display:  inline-block;
 }
 
 h5{
@@ -39,182 +49,426 @@ a{
     color: white;
 }
 
-
-/* .container-fluid {
-    margin: 0 !important;
-    padding: 0 !important;
-} */
-
-/* .nav-container{
-    position: fixed;
-    z-index: 500; 
+.item-title{
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
-.nav-container .navbar{
-    background-color: #cb2a1d;
-    position: relative;
+.item-price{
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    color: #cb2a1d;
 }
 
-.nav-container .navbar .navbar-nav{
-    width: 100vw;
+.otgs{
+    font-size: 25px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #f4b691;
+    margin: 30px;
+}
+
+.otgs-p{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.otgs-bg{
+    background-image: url(assets/brush_watercolor_orange.jpeg);
+    text-align: center;
+    height: 118px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parent {
+    width: 100%;
+    padding: 10px;
+    height: 250px;
     display: inline-block;
 }
 
-@media (max-width: 992px){
-    .nav-container .navbar .navbar-nav{
-    margin-top: 10px;
-    display: block !important; 
+.child {
+    margin: auto;
+    height: 100%;
+    width: 211px;
+    background-size: contain;
+}
+
+.cow{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* See more button */
+.sm-btn {
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    width: 160px;
+    color: white;
+    display: block;
+    border-radius: 100px;
+    background-color: #cb2a1d;
+}
+
+/* Several different images */
+.bg-one {
+    background-image: url(assets/New1.png);
+}
+.bg-two {
+    background-image: url(assets/New2.png);
+}
+.bg-three {
+    background-image: url(assets/New3.png);
+}
+/* End */
+
+/* Our Story */
+.header-blog .container {
+	position: relative;
+	height: 100%;
+  }
+
+.header-blog {
+    background-image: url("assets/our_story.jpg");
+    opacity: 90%;
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-animation {
+    -webkit-animation: bg-animation 25s ease-in-out infinite;
+    animation: bg-animation 25s ease-in-out infinite;
+}
+
+.blog-top{
+    display:block;
+}
+
+.header-blog .container {
+    position: relative;
+    height: 100%;
+}
+
+.header-row {
+    height: 100%;
+}
+
+/*****animated text start*****/
+h4{
+    font-family: 'Luckiest Guy', cursive;
+    position: absolute;
+    text-transform: uppercase;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    letter-spacing: 4px;
+    color: transparent;
+    font-size: 1.8em;
+}
+
+h4:before{
+    content: attr(data-text);
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: #cb2a1d;
+    overflow: hidden;
+    border-right: 1px solid #FFF;
+    animation: type 10s steps(8) infinite;
+    white-space: nowrap;
+}
+
+@keyframes type {
+
+    0%{
+        width:0%;
+    }
+
+    50%{
+        width:100%;
+    }
+
+    100%{
+        width:0%;
+    }
+
+}
+/*****animated text End*****/
+
+@-webkit-keyframes bg-animation {
+    0% {
+        background-position: top;
+    }
+
+    50% {
+        background-position: bottom;
+    }
+    100% {
+        background-position: top;
     }
 }
-    .nav-container .navbar .navbar-nav .nav-split-brand{
-        margin-right: calc(101px + 50px) !important;
+
+@keyframes bg-animation {
+    0% {
+        background-position: top;
+    }
+
+    50% {
+        background-position: bottom;
+    }
+    100% {
+        background-position: top;
+    }
+}
+/* End */
+
+.featurette-heading{
+    color: #f4b691;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2em;
+}
+
+.lead{
+    font-family: 'Abel', sans-serif;
+    font-size: 19px;
+}
+
+@media(min-width:768px){
+    h2{
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 4em;
+        color: #cb2a1d;
+        margin-top: 206px;
+        display:  inline-block;
+    }
+
+    .otgs-bg{
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .item-title{
+        font-family: 'Abel', sans-serif;
+        font-size: 1.5em;
     }
     
-@media (max-width: 992px){
-    .nav-container .navbar .navbar-nav .nav-split-brand{
-        margin: 0 !important;
-        display: block !important;
+    .item-price{
+        font-family: 'Abel', sans-serif;
+        font-size: 2em;
+        color: #cb2a1d;
     }
-}
 
-.nav-container .navbar .navbar-nav .dropdown .dropdown-menu{
-    border: none;
-    position: fixed;
-    top: 106px;
-    left: 0;
-    width: 100vw;
-    display: none;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-shadow: 1px 0 4px rgba(0, 0, 0, 0.05);
-    box-shadow: 1px 0 4px rgba(0, 0, 0, 0.05);
-    padding: 0 15%;
-    background-color: white !important;
-    -webkit-filter: brightness(0.99);
-    filter: brightness(0.99);
-}
+    .otgs{
+        font-size: 3em;
+        font-family: 'Luckiest Guy', cursive;
+        color: #f4b691;
+    }
 
-@media (max-width: 992px){
-    .nav-container .navbar .navbar-nav .dropdown .dropdown-menu{
-        padding-bottom: 10px !important;
+    .otgs-p{
+        font-family: 'Abel', sans-serif;
+        font-size: 1.5em;
     }
+
+    .cow{
+        margin-top: 50px;
+        margin-bottom: 80px;
     }
-@media (max-width: 992px){
-    .nav-container .navbar .navbar-nav .dropdown .dropdown-menu{
+
+    /* See more button */
+    .sm-btn {
+        font-family: 'Abel', sans-serif;
+        letter-spacing: 1px;
+        font-size: 20px;
+        width: 250px;
+        color: white;
+        display: block;
+        border-radius: 100px;
+        background-color: #cb2a1d;
+    }
+
+    /* Image zoom on hover + Overlay colour */
+    .parent {
+        width: 100%;
+        padding: 10px;
+        height: 400px;
+        overflow: hidden;
         position: relative;
-        top: 0;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
     }
-}
-@media (max-width: 992px){
-    .nav-container .navbar .navbar-nav .dropdown .dropdown-menu a{
-        padding: 5px !important;
-        color: #1a1a1a !important;
-    }
-}
-          
-.nav-container .navbar .navbar-nav .dropdown .dropdown-menu a img{
-    -webkit-filter: saturate(0.65);
-    filter: saturate(0.65);
-    opacity: 0.85;
-    -webkit-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition: 0.2s;
-}
-            
-@media (max-width: 992px){
-    .nav-container .navbar .navbar-nav .dropdown .dropdown-menu a img{
-        display: none;
-    }
-}
-          
-.nav-container .navbar .navbar-nav .dropdown .dropdown-menu a:hover{
-    background-color: white !important;
-}
-          
-.nav-container .navbar .navbar-nav .dropdown .dropdown-menu a:hover img{
-    opacity: 0.9;
-}
-        
-.nav-container .navbar .navbar-nav .nav-item{
-    display: inline-block;
-    position: relative;
-    left: -5px;
-    z-index: 2;
-    text-transform: uppercase !important;
-}
-          
-@media (max-width: 992px){
-    .nav-container .navbar .navbar-nav .nav-item:nth-child(5){
-        display: none !important;
-    }
-}
-          
-.nav-container .navbar .navbar-nav .nav-item:nth-child(6){
-    display: none;
-}
 
-@media (max-width: 992px){
-    .nav-container .navbar .navbar-nav .nav-item:nth-child(6){
+    .child {
+        height: 100%;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+    }
+
+    .parent:hover .child, .parent:focus .child {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    .parent:hover .child:before, .parent:focus .child:before {
         display: block;
     }
-}
-          
-.nav-container .navbar .navbar-nav .nav-item i{
-    color: #acacac !important;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-}
-          
-@media (max-width: 992px){
-    .nav-container .navbar .navbar-nav .nav-item{
-        display: block !important;
-        text-align: center;
-        left: 0 !important;
-        -webkit-transform: none;
-        -ms-transform: none;
-        transform: none;
+
+    .child:before {
+        content: "";
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    /* End */
+
+    /* Several different images */
+    .bg-one {
+        background-image: url(assets/New1.png);
+    }
+    .bg-two {
+        background-image: url(assets/New2.png);
+    }
+    .bg-three {
+        background-image: url(assets/New3.png);
+    }
+    /* End */
+
+    /* Our Story */
+    .header-blog .container {
+        position: relative;
+        height: 100%;
+    }
+
+    .header-blog {
+        background-image: url("assets/our_story.jpg");
+        opacity: 90%;
+        height: 60vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bg-animation {
+        -webkit-animation: bg-animation 25s ease-in-out infinite;
+        animation: bg-animation 25s ease-in-out infinite;
+    }
+
+    .blog-top{
+        display:block;
+    }
+
+    .header-blog .container {
+        position: relative;
+        height: 100%;
+    }
+
+    .header-row {
+        height: 100%;
+    }
+
+    /*****animated text start*****/
+    h4{
+        font-family: 'Luckiest Guy', cursive;
+        position: absolute;
+        text-transform: uppercase;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
         padding: 0;
-        left: -15px !important;
-    }
-}
-          
-.nav-container .navbar .navbar-nav .nav-item.active a::before{
-    content: url(../../images/flower.png);
-    z-index: -1;
-    -webkit-filter: brightness(0.97);
-    filter: brightness(0.97);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-          
-.nav-container .navbar .navbar-nav .nav-item a{
-    color: white !important;
-    font-size: 2rem;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    padding: 44px 50px;
-}
-
-@media (max-width: 992px){
-    .nav-container .navbar .navbar-nav .nav-item a{
-        padding: 18px 15px;
-        display: inline-block;
+        letter-spacing: 4px;
+        color: transparent;
+        font-size: 5em;
     }
 
-}
-.nav-container .navbar .navbar-nav .nav-item a:hover{
-    color: #1a1a1a !important;
+    h4:before{
+        content: attr(data-text);
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        color: #cb2a1d;
+        overflow: hidden;
+        border-right: 1px solid #FFF;
+        animation: type 10s steps(8) infinite;
+        white-space: nowrap;
+    }
+
+    @keyframes type {
+
+        0%{
+            width:0%;
+        }
+
+        50%{
+            width:100%;
+        }
+
+        100%{
+            width:0%;
+        }
+
+    }
+    /*****animated text End*****/
+
+    @-webkit-keyframes bg-animation {
+        0% {
+            background-position: top;
+        }
+
+        50% {
+            background-position: bottom;
+        }
+        100% {
+            background-position: top;
+        }
+    }
+
+    @keyframes bg-animation {
+        0% {
+            backgrousnd-position: top;
+        }
+
+        50% {
+            background-position: bottom;
+        }
+        100% {
+            background-position: top;
+        }
+    }
+    /* End */
+
+    .featurette-heading{
+        color: #f4b691;
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 3.5em;
+    }
+    
+    .lead{
+        font-family: 'Abel', sans-serif;
+        font-size: 1.5em;
+    }
 
 }
-.nav-container .navbar .navbar-nav .nav-item a:hover i{
-    color: #1a1a1a !important;
-} */
