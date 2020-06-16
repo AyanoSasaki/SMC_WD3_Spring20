@@ -169,6 +169,24 @@ a{
 .bg-twelve {
     background-image: url(assets/raw_treats.jpg);
 }
+.bg-thirteen {
+    background-image: url(assets/Whole_Grain_Dog_Food.jpg);
+}
+.bg-fourteen {
+    background-image: url(assets/Whole_Grain_Dog_Food.jpg);
+}
+.bg-fifteen {
+    background-image: url(assets/High_Protein_Raw_Coated_Baked_Kibble.jpg);
+}
+.bg-sixteen {
+    background-image: url(assets/Limited_Ingredient_Diets.jpg);
+}
+.bg-seventeen {
+    background-image: url(assets/High_Protein_Raw_Blend_Baked_Kibble.jpg);
+}
+.bg-eighteen {
+    background-image: url(assets/Raw_Coated_Baked_Kibble_With_Wholesome_Grains.jpg);
+}
 /* End */
 
 /* Our Story */
@@ -497,6 +515,10 @@ h8{
 
 form{
     font-family: 'Abel', sans-serif;
+}
+
+.save{
+    width: 100%;
 }
 
 
