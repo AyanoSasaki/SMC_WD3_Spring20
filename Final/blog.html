@@ -24,14 +24,9 @@
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand nav-icon" href="index.html">
                <img src="assets/logo.png" alt="Logo">
             </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -56,15 +51,18 @@
                         <a class="nav-link" href="location.html">Location</a>
                     </li>
                 </ul>
-
-                <a href="#" class="nav-link">
-                    <i class="fas fa-user my-example"></i>
-                </a>
-                <a href="#" class="nav-link">
-                    <i class="fas fa-shopping-cart my-example"></i>
-                </a>
             </div>
-        </nav>
+            <!-- Cart -->
+            <li class="nav-item align-self-center position-relative">
+                <a href="cart.html" class="nav-link"><i class="fas fa-shopping-cart"></i><span class="cart-badge">0</span></i></a>
+            </li>
+
+            <!-- Toggle -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-dog my-example"></i></span>
+            </button>
+        </nav> 
     </header>
 
     <main>
@@ -79,23 +77,82 @@
 
         <!-- Featurette -->
         <div class="container">
-            <div class="row mt-5 mb-5">
+            <div class="row">
                 <div class="col">
-                    <div class="row featurette">
-                    <div class="col-md-7">
-                        <div class="featurette-heading">17 years ago…</div>
-                        <p class="lead">Our founder, Marie Moody, inspired by her own dog’s speedy recovery on a raw diet, launched Stella & Chewy’s. Our diets and offerings have expanded but we have always been focused on delivering best-in-class nutrition!</p>
-                    </div>
-                    <div class="col-md-5">
-                        <picture>
-                        <source media="(min-width: 1200px)" srcset="assets/Marie_and_Chewy.jpg">
-                        <source media="(min-width: 768px)" srcset="assets/Marie_and_Chewy.jpg">
-                        <img class="img-fluid" src="assets/Marie_and_Chewy.jpg" alt="family frame">
-                        </picture>
-                    </div>
+                    <div class="row featurette blog-post">
+                        <div class="col-md-7">
+                            <picture>
+                            <source media="(min-width: 1200px)" srcset="assets/Marie_and_Chewy.jpg">
+                            <source media="(min-width: 768px)" srcset="assets/Marie_and_Chewy.jpg">
+                            <img class="img-fluid" src="assets/Marie_and_Chewy.jpg" alt="family frame">
+                            </picture>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="featurette-heading">17 years ago…</div>
+                            <p class="lead">Our founder, Marie Moody, inspired by her own dog’s speedy recovery on a raw diet, launched Stella & Chewy’s. Our diets and offerings have expanded but we have always been focused on delivering best-in-class nutrition!</p>
+                        </div>
                     </div>
 
                     <hr class="featurette-divider">
+
+                    <div class="row featurette blog-post">
+                        <div class="col-md-6 order-md-2">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="assets/blog1.png">
+                                <source media="(min-width: 768px)" srcset="assets/blog1.png">
+                                <img class="img-fluid" src="assets/blog1.png" alt="a dog is waiting for foods">
+                            </picture>
+                        </div>
+                        <div class="col-md-6 order-md-1">
+                            <div class="featurette-blog-heading">NEW LOOK, SAME GREAT TASTE: PATTY UPDATE</div>
+                            <p class="lead">At Stella & Chewy’s, our mission is to provide best-in-class raw food nutrition to help pets thrive. We make all of our frozen and freeze-dried raw products in our very own...</p>
+                            <button type="button" class="btn text-center rm-btn">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="row featurette blog-post">
+                        <div class="col-md-6">
+                            <picture>
+                            <source media="(min-width: 1200px)" srcset="assets/blog2.png">
+                            <source media="(min-width: 768px)" srcset="assets/blog2.png">
+                            <img class="img-fluid" src="assets/blog2.png" alt="dog food bags">
+                            </picture>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="featurette-blog-heading">OUR DONATION TO ASPCA COVID-19 RELIEF & RECOVERY INITIATIVE</div>
+                            <p class="lead">Stella & Chewy’s is excited to share the largest donation made in our 17-year history! We’ve partnered with the ASPCA® (The American Society for the Prevention of...</p>
+                            <button type="button" class="btn text-center rm-btn">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="row featurette blog-post">
+                        <div class="col-md-6 order-md-2">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="assets/blog3.png">
+                                <source media="(min-width: 768px)" srcset="assets/blog3.png">
+                                <img class="img-fluid" src="assets/blog3.png" alt="a dog is waiting for foods">
+                            </picture>
+                        </div>
+                        <div class="col-md-6 order-md-1">
+                            <div class="featurette-blog-heading">7 WAYS TO CELEBRATE NATIONAL DOG MOM’S DAY</div>
+                            <p class="lead">National Dog Mom’s Day 2020 is on Saturday, May 9th and we want to make sure you take the time to celebrate the bond between you and your pup! While this year’s day is...</p>
+                            <button type="button" class="btn text-center rm-btn">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="row featurette blog-post">
+                        <div class="col-md-6">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/fBNvzKzZWNs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="featurette-blog-heading">HOW TO FEED</div>
+                            <p class="lead">Optimal feeding amounts may vary with age, size, breed, and activity level. For every cup of freeze-dried cat food, add half a cup of warm water. Allow food to rehydrate for one minute, mix and serve. Provide your cat access to...</p>
+                            <button type="button" class="btn text-center rm-btn">Read more</button>
+                        </div>
+                    </div>
+                    
 
     </main>
 

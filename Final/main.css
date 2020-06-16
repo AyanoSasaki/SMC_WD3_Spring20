@@ -2,6 +2,7 @@
 
 .my-example{
     color: white;
+    font-size: 25px;
 }
 
 .navbar{
@@ -10,9 +11,16 @@
     font-size: 30px;
 }
 
+.nav-icon{
+    text-align: center;
+}
+
 .nav-link{
     color: white;
-    margin: 20px;
+}
+
+li{
+    list-style: none;
 }
 
 h2{
@@ -50,10 +58,19 @@ a{
 }
 
 .item-title{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Abel', sans-serif;
     margin-right: 15px;
     margin-left: 15px;
+    font-weight: bold;
+}
+
+.item-title-2{
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-weight: bold;
 }
 
 .item-price{
@@ -86,7 +103,7 @@ a{
 .parent {
     width: 100%;
     padding: 10px;
-    height: 250px;
+    height: 231px;
     display: inline-block;
 }
 
@@ -95,6 +112,7 @@ a{
     height: 100%;
     width: 211px;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .cow{
@@ -116,13 +134,40 @@ a{
 
 /* Several different images */
 .bg-one {
-    background-image: url(assets/New1.png);
+    background-image: url(assets/New1.jpg);
 }
 .bg-two {
-    background-image: url(assets/New2.png);
+    background-image: url(assets/New2.jpg);
 }
 .bg-three {
-    background-image: url(assets/New3.png);
+    background-image: url(assets/New3.jpg);
+}
+.bg-four {
+    background-image: url(assets/RC_Duck.jpg);
+}
+.bg-five {
+    background-image: url(assets/RC_Salmon.jpg);
+}
+.bg-six {
+    background-image: url(assets/RCw_Beef.jpg);
+}
+.bg-seven {
+    background-image: url(assets/Frozen.jpg);
+}
+.bg-eight {
+    background-image: url(assets/Freeze.jpg);
+}
+.bg-nine {
+    background-image: url(assets/Kibble_for_dog.jpg);
+}
+.bg-ten {
+    background-image: url(assets/Wet.jpg);
+}
+.bg-eleven {
+    background-image: url(assets/Hemp.jpg);
+}
+.bg-twelve {
+    background-image: url(assets/raw_treats.jpg);
 }
 /* End */
 
@@ -232,15 +277,235 @@ h4:before{
 /* End */
 
 .featurette-heading{
-    color: #f4b691;
+    color: #cb2a1d;
     font-family: 'Luckiest Guy', cursive;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 .lead{
     font-family: 'Abel', sans-serif;
     font-size: 19px;
 }
+
+.featurette-blog-heading{
+    color: #f4b691;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.blog-post{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rm-btn{
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    width: 160px;
+    color: white;
+    display: block;
+    border-radius: 100px;
+    background-color: #ddc185;
+}
+
+.display-3{
+    font-family: 'Luckiest Guy', cursive;
+    color: #cb2a1d;
+    font-size: 30px;
+}
+
+.card-title{
+    font-size: 30px;
+}
+
+.card-text{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.card-deck{
+    margin: 30px;
+}
+
+.our-products-header img{
+    width: 100%;
+}
+
+.item-link{
+    position: relative;
+    z-index: 1;
+}
+
+.item-link a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent:-999px;
+    z-index: 2;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+section{
+    margin: 50px;
+}
+
+#addCart{
+    background-color: #f4b691;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #cb2a1d;
+    font-size: 30px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 50px;
+}
+
+button:focus {
+	outline:0;
+}
+
+.product-name{
+    font-size: 27px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #cb2a1d;
+}
+
+.ingredients{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2em;
+}
+
+section{
+    margin: 50px;
+}
+
+.product-detail{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 17px;
+}
+
+.form-quantity{
+    width: 69%;
+}
+
+.productOptions{
+    margin-top: 40px;
+}
+
+.cart-item{
+    font-family: 'Abel', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.cart-item-name{
+    font-size: 1.8em;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}
+
+.cart-text{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.price{
+    font-size: 2.2em;
+    font-family: 'Abel', sans-serif;
+    color: #cb2a1d;
+}
+
+.cart-text-big{
+    font-family: 'Abel', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* CHECK OUT */
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #dc3545;
+    background-color: #e0bba7;
+}
+
+/*checked, validated*/
+.custom-control-input.is-valid:checked~.custom-control-label::before, .was-validated .custom-control-input:valid:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #dc3545;
+    background-color: #e0bba7;
+}
+
+/*unchecked, validated*/
+.custom-control-input.is-valid~.custom-control-label::before, .was-validated .custom-control-input:valid~.custom-control-label::before {
+    border-color: #dc3545 !important;
+}
+
+/*////////////STYLING FOR INPUTS////////////////*/
+/* remove red x, update border color*/
+.form-control.is-invalid, .was-validated .form-control:invalid {
+  background-image: none;
+  border-color: #dc3545;
+  border-width: 2px;
+}
+
+/*remove green check, update border color*/
+.form-control.isvalid, .was-validated .form-control:valid {
+  background-image: none;
+  border-color: #dc3545;
+}
+
+/*////////////STYLING FOR RADIO BUTTON////////////////*/
+.form-check-input.is-valid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label {
+    color: #414141;
+}
+
+.invalid-feedback {
+	color: #dc3545;
+}
+
+/*custom invalid response per input type*/
+.invalid-input {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+}
+
+h8{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3em;
+    color: #cb2a1d;
+}
+
+form{
+    font-family: 'Abel', sans-serif;
+}
+
+
+
+
+
+
+
+
 
 @media(min-width:768px){
     h2{
@@ -258,9 +523,18 @@ h4:before{
         background-repeat: no-repeat;
     }
 
+    .nav-link{
+        margin: 20px;
+    }
+
     .item-title{
         font-family: 'Abel', sans-serif;
         font-size: 1.5em;
+    }
+
+    .item-title-2{
+        font-family: 'Abel', sans-serif;
+        font-size: 1.9em;
     }
     
     .item-price{
@@ -301,7 +575,7 @@ h4:before{
     .parent {
         width: 100%;
         padding: 10px;
-        height: 400px;
+        height: 337px;
         overflow: hidden;
         position: relative;
         text-align: center;
@@ -340,18 +614,6 @@ h4:before{
         position: absolute;
         top: 0;
         left: 0;
-    }
-    /* End */
-
-    /* Several different images */
-    .bg-one {
-        background-image: url(assets/New1.png);
-    }
-    .bg-two {
-        background-image: url(assets/New2.png);
-    }
-    .bg-three {
-        background-image: url(assets/New3.png);
     }
     /* End */
 
@@ -461,7 +723,7 @@ h4:before{
     /* End */
 
     .featurette-heading{
-        color: #f4b691;
+        color: #cb2a1d;
         font-family: 'Luckiest Guy', cursive;
         font-size: 3.5em;
     }
@@ -470,5 +732,67 @@ h4:before{
         font-family: 'Abel', sans-serif;
         font-size: 1.5em;
     }
+
+    .featurette-blog-heading{
+        color: #f4b691;
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 2.5em;
+        line-height: 45px;
+    }
+
+    .blog-post{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .display-3{
+        font-family: 'Luckiest Guy', cursive;
+        color: #cb2a1d;
+        font-size: 4em;
+    }
+
+    .card-text{
+        font-family: 'Abel', sans-serif;
+        font-size: 1.2em;
+    }
+
+    .card-deck{
+        margin: 50px;
+    }
+
+    .product-name{
+        font-size: 2.5em;
+        font-family: 'Luckiest Guy', cursive;
+        color: #cb2a1d;
+    }
+
+    .ingredients{
+        font-family: 'Abel', sans-serif;
+        font-size: 1.2em;
+    }
+
+    section{
+        margin: 50px;
+    }
+
+    .product-detail{
+        font-family: 'Abel', sans-serif;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-right: 10px;
+        margin-left: 17px;
+    }
+
+    .form-quantity{
+        width: 85%;
+    }
+
+    h8{
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 4em;
+        color: #cb2a1d;
+    }
+
+
 
 }

@@ -24,9 +24,14 @@
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand nav-icon" href="index.html">
+            <a class="navbar-brand" href="index.html">
                <img src="assets/logo.png" alt="Logo">
             </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -66,102 +71,65 @@
     </header>
 
     <main>
-        <!-- Jumbotron -->
-        <div class="jumbotron text-white" style="background-image: url('assets/where_to_buy.jpg'); background-size:cover; background-position: center;" alt="Sunset with sun glasses">
-            <h1 class="display-3 main-ctg text-center">Where To Buy Dog Food</h1>
-            <p class="lead"></p>
-        </div>
-
-        <!-- Card decks -->
-        <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="assets/centinela.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Centinela Feed & Pet Supplies</h5>
-                <p class="card-text text-center">11055 West Pico Boulevard
-                    Los Angeles CA 90064</br>310-473-5099
-                </p>
-                <div class="row">
-                    <div class="col">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.237171668669!2d-118.43623248478534!3d34.03778678060989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bba17c4f0f95%3A0xb4b194499e67dfdd!2s11055%20W%20Pico%20Blvd%2C%20Los%20Angeles%2C%20CA%2090064!5e0!3m2!1sen!2sus!4v1592251881982!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                </div>  
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="assets/healthspot.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Healthy spot</br></h5>
-                <p class="card-text text-center">1110 Wilshire Blvd
-                    Santa Monica CA 90401</br>310-458-2004
-                </p>
-                <div class="row">
-                    <div class="col">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.7529770055066!2d-118.49339488478576!3d34.024551180613436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4ca3a1787b1%3A0xb594d51233659fc4!2s1110%20Wilshire%20Blvd%2C%20Santa%20Monica%2C%20CA%2090401!5e0!3m2!1sen!2sus!4v1592252005298!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                </div>  
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="assets/bentleys.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Bentley’s Pet Stuff</h5>
-                <p class="card-text text-center">2621 Lincoln Blvd
-                    Santa Monica CA 90405</br>310-450-6759
-                </p>
-                <div class="row">
-                    <div class="col">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.4210157323696!2d-118.47744158451775!3d34.00740252753871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bad7788728ef%3A0x94bdabcec0fdb5cb!2s2621%20Lincoln%20Blvd%2C%20Santa%20Monica%2C%20CA%2090405!5e0!3m2!1sen!2sus!4v1592253264717!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                </div>
-              </div>
-            </div>
-        </div>
-
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="assets/petfoodexpress.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Pet Food Express</h5>
-                    <p class="card-text text-center">9153 West Olympic Boulevard
-                        Beverly Hills CA 90212</br>310-271-2222
-                    </p>
-                    <div class="row">
-                        <div class="col">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.3838233021743!2d-118.3937199845167!3d34.05967382478543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b958678e592d%3A0xb91365df96464b4a!2s9153%20W%20Olympic%20Blvd%2C%20Beverly%20Hills%2C%20CA%2090212!5e0!3m2!1sen!2sus!4v1592253319779!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <!-- Item -->
+        <section>
+            <div class="container">
+                <div class="row mb-5">
+                    <!-- Item images -->
+                    <div class="col-12 col-md-6 pb-3">
+                        <div id="productCarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/New1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/New1-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/New1-2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#produtCarousel" role="button" data-slide="prev">
+                                <!-- <i class="fas fa-caret-left fa-lg"></i> -->
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+                                <!-- <i class="fas fa-caret-right fa-lg"></i> -->
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="assets/brunos.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Bruno’s Dog & Cat Boutique</h5>
-                  <p class="card-text text-center">2012 Lincoln Blvd
-                    Venice CA 90291</br>424-268-4031
-                </p>
-                <div class="row">
-                    <div class="col">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.8808447048264!2d-118.45766058451795!3d33.99559422816016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2baecc1a04359%3A0x9462e1dae3b4d36d!2s2012%20Lincoln%20Blvd%2C%20Venice%2C%20CA%2090291!5e0!3m2!1sen!2sus!4v1592253373828!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                    <!--product details-->
+                    <div class="col-12 col-md-6">
+                        <h3 class="pb-3 product-name">Cage-Free Chicken & Ancient Grains Recipe for Small Breed Dogs</h3>
+                        <hr>
+                        <p class="ingredients">Chicken, chicken meal, pearled barley, oatmeal, chicken fat (preserved with mixed tocopherols), brown rice, natural chicken flavor, tomato pomace, flaxseed, millet, chicken liver, quinoa, calcium carbonate, dicalcium phosphate, potassium chloride, salt, l-threonine, salmon oil (preserved with mixed tocopherols), inulin (from chicory root), pumpkin, blueberries, taurine, turmeric, chicken cartilage, tocopherols.</p>
+                        <form>
+                            <hr>
+                            <!--Size and Quanitity-->
+                            <div class="row productOptions">
+                                <label for="selectSize" class="product-detail">Size:</label>
+                                <select class="form-control form-quantity" id="selectSize">
+                                    <option value="27">3 lbs</option>
+                                    <option value="32">10 lbs</option>
+                                </select>
+                            </div>
+                            
+                            <button type="button" class="btn text-center mx-auto mt-5 btn-block p-2 add-to-cart" id="addCart"><span>Add to Cart</span></button>
+                        </form>
+
                     </div>
                 </div>
-                </div>
             </div>
-            <div class="card">
-                <img class="card-img-top" src="assets/Tailwaggers.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Tailwaggers West Hollywood</h5>
-                  <p class="card-text text-center">801 North Fairfax Avenue Unit 108
-                    Los Angeles CA 90046</br>323-658-2222
-                </p>
-                <div class="row">
-                    <div class="col">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.3447816815537!2d-118.36388548451627!3d34.0863069233812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2beceefab669b%3A0x329bfd8591b2093c!2s801%20N%20Fairfax%20Ave%20%23108%2C%20Los%20Angeles%2C%20CA%2090046!5e0!3m2!1sen!2sus!4v1592253407677!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
 
     <footer>

@@ -24,14 +24,9 @@
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand nav-icon" href="index.html">
                <img src="assets/logo.png" alt="Logo">
             </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -56,23 +51,21 @@
                         <a class="nav-link" href="location.html">Location</a>
                     </li>
                 </ul>
-
-                <a href="#" class="nav-link">
-                    <i class="fas fa-user my-example"></i>
-                </a>
-                <a href="#" class="nav-link">
-                    <i class="fas fa-shopping-cart my-example"></i>
-                </a>
             </div>
+            <!-- Cart -->
+            <div class="navbar-nav ml-auto">
+                <li class="nav-item align-self-center position-relative">
+                    <a href="cart.html" class="nav-link"><i class="fas fa-shopping-cart"></i><span class="cart-badge">0</span></i></a>
+                </li>
+            </div>
+
+            <!-- Toggle -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-dog my-example"></i></span>
+            </button>
         </nav> 
 
-        <!-- Alart -->
-        <!-- <div class="alert alert-secondary alert-dismissible" role="alert">
-            <a href="#" class="alert-link">Sign up</a> and save 20% on your first order!
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-          </div> -->
-        
         <!-- Carousel -->
         <div id="myCarousel" class="carousel slide">
             <ol class="carousel-indicators">
@@ -122,8 +115,11 @@
                     <div class="parent" onclick="">
                         <div class="child bg-one"></div>
                     </div>
-                    <p class="item-title text-center">Stella's Essentials Chicken & Ancient Grains Recipe</p>
-                    <p class="item-price text-center">$16.99</p>
+                    <div class="item-link">
+                        <a href="Stellas_Essentials_Chicken_and_Ancient.html"></a>
+                        <p class="item-title text-center">Stella's Essentials Chicken & Ancient Grains Recipe</p>
+                        <p class="item-price text-center">$16.99</p>
+                    </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="parent" onclick="">
@@ -140,7 +136,7 @@
                     <p class="item-price text-center">$16.99</p>
                 </div>
             </div>
-            <a class="btn text-center sm-btn py-3 mx-auto mt-5" href="shop.html" role="button">See More</a>
+            <a class="btn-custom btn text-center sm-btn py-3 mx-auto mt-5" href="shop.html" role="button">See More</a>
         </div>
 
         <!-- Why Stella? -->
